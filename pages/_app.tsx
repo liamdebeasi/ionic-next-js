@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { defineCustomElements as ionDefineCustomElements } from '@ionic/core/loader'
-
+import { IonHeader, IonToolbar, IonTitle } from '@ionic/react';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/core/css/core.css'
 
@@ -23,11 +23,11 @@ function MyApp({ Component, pageProps }) {
   })
   return (
     <ion-app>
-      <ion-header translucent>
-        <ion-toolbar>
-          <ion-title>Next.js with Ionic</ion-title>
-        </ion-toolbar>
-      </ion-header>
+      <IonHeader translucent>
+        <IonToolbar>
+          <IonTitle>Next.js with Ionic</IonTitle>
+        </IonToolbar>
+      </IonHeader>
 
       <ion-content fullscreen>
         <Component {...pageProps} />
