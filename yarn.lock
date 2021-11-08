@@ -75,24 +75,6 @@
   "resolved" "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.2.1.tgz"
   "version" "9.2.1"
 
-"@ionic/core@^6.0.0-rc.0", "@ionic/core@6.0.0-rc.0":
-  "integrity" "sha512-FNdkfqHfN7p1o/p4/WWwGxTVdgEKdGz8vX0LPI57IhrV2zZ0cpVUATYZZx+HysgeFxezs34xU0qDODqJR2j3NA=="
-  "resolved" "https://registry.npmjs.org/@ionic/core/-/core-6.0.0-rc.0.tgz"
-  "version" "6.0.0-rc.0"
-  dependencies:
-    "@stencil/core" "^2.6.0"
-    "ionicons" "^5.5.1"
-    "tslib" "^2.1.0"
-
-"@ionic/react@^6.0.0-rc.0":
-  "integrity" "sha512-cj1w6DWBNPBvEoIX/cJS4YHdAJQhIMYFVFCaYGrxxuKUrtWHdoBPtQEN/ff6ka5y/d2873p81LWOf43Pdfxnug=="
-  "resolved" "https://registry.npmjs.org/@ionic/react/-/react-6.0.0-rc.0.tgz"
-  "version" "6.0.0-rc.0"
-  dependencies:
-    "@ionic/core" "6.0.0-rc.0"
-    "ionicons" "^5.1.2"
-    "tslib" "*"
-
 "@napi-rs/triples@^1.0.3":
   "integrity" "sha512-jDJTpta+P4p1NZTFVLHJ/TLFVYVcOqv6l8xwOeBKNPMgY/zDYH/YH7SJbvrr/h1RcS9GzbPcLKGzpuK9cV56UA=="
   "resolved" "https://registry.npmjs.org/@napi-rs/triples/-/triples-1.0.3.tgz"
@@ -130,24 +112,9 @@
   "resolved" "https://registry.npmjs.org/@next/react-refresh-utils/-/react-refresh-utils-11.1.2.tgz"
   "version" "11.1.2"
 
-"@next/swc-darwin-arm64@11.1.2":
-  "integrity" "sha512-hZuwOlGOwBZADA8EyDYyjx3+4JGIGjSHDHWrmpI7g5rFmQNltjlbaefAbiU5Kk7j3BUSDwt30quJRFv3nyJQ0w=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-11.1.2.tgz"
-  "version" "11.1.2"
-
 "@next/swc-darwin-x64@11.1.2":
   "integrity" "sha512-PGOp0E1GisU+EJJlsmJVGE+aPYD0Uh7zqgsrpD3F/Y3766Ptfbe1lEPPWnRDl+OzSSrSrX1lkyM/Jlmh5OwNvA=="
   "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-11.1.2.tgz"
-  "version" "11.1.2"
-
-"@next/swc-linux-x64-gnu@11.1.2":
-  "integrity" "sha512-YcDHTJjn/8RqvyJVB6pvEKXihDcdrOwga3GfMv/QtVeLphTouY4BIcEUfrG5+26Nf37MP1ywN3RRl1TxpurAsQ=="
-  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-11.1.2.tgz"
-  "version" "11.1.2"
-
-"@next/swc-win32-x64-msvc@11.1.2":
-  "integrity" "sha512-e/pIKVdB+tGQYa1cW3sAeHm8gzEri/HYLZHT4WZojrUxgWXqx8pk7S7Xs47uBcFTqBDRvK3EcQpPLf3XdVsDdg=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-11.1.2.tgz"
   "version" "11.1.2"
 
 "@node-rs/helper@1.2.1":
@@ -193,11 +160,6 @@
   dependencies:
     "mkdirp" "^1.0.4"
     "rimraf" "^3.0.2"
-
-"@stencil/core@^2.5.0", "@stencil/core@^2.6.0":
-  "integrity" "sha512-kY3xYolZoJO1MKslL0NQccHy72R3TIl1prHgfmIrEoGcnMgc6uiskdWaGMuI5/sCGz9T+QuTVz76B1H2ySyBZg=="
-  "resolved" "https://registry.npmjs.org/@stencil/core/-/core-2.9.0.tgz"
-  "version" "2.9.0"
 
 "@types/json-schema@^7.0.8":
   "integrity" "sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ=="
@@ -1212,13 +1174,6 @@
     "get-intrinsic" "^1.1.0"
     "has" "^1.0.3"
     "side-channel" "^1.0.4"
-
-"ionicons@^5.1.2", "ionicons@^5.2.3", "ionicons@^5.5.1":
-  "integrity" "sha512-L71djrMi8pAad66tpwdnO1vwcyluCFvehzxU1PpH1k/HpYBZhZ5IaYhqXipmqUvu5aEbd4cbRguYyI5Fd4bxTw=="
-  "resolved" "https://registry.npmjs.org/ionicons/-/ionicons-5.5.3.tgz"
-  "version" "5.5.3"
-  dependencies:
-    "@stencil/core" "^2.5.0"
 
 "is-arguments@^1.0.4":
   "integrity" "sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA=="
@@ -2342,11 +2297,6 @@
   "integrity" "sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw=="
   "resolved" "https://registry.npmjs.org/ts-pnp/-/ts-pnp-1.2.0.tgz"
   "version" "1.2.0"
-
-"tslib@*", "tslib@^2.1.0":
-  "integrity" "sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw=="
-  "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz"
-  "version" "2.3.1"
 
 "tty-browserify@0.0.0":
   "integrity" "sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY="
